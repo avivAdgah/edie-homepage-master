@@ -1,0 +1,157 @@
+i {
+    font-size: 50px;
+}
+.navbar{
+    div{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.first-section {
+    .image {
+        background-image: url('/assests/images/heroImage.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 100%;
+    }
+}
+.thrid-section{
+    .first-design{
+        .image{
+            background-image: url('/assests/images/smarthome.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+        }
+    }
+    .second-design{
+        .image{
+            background-image: url('/assests/images/onboard.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+        }
+    }
+    .third-design{
+        .image{
+            background-image: url('/assests/images/booking.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+        }
+    }
+    .forth-design{
+        .image{
+            background-image: url('/assests/images/juice-product.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+        }
+    }
+}
+
+.forth-section{
+    .images{
+        height: 400px;
+        .two-persons{
+            .first-image{
+                background-image: url('/assests/images/person1.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 150px;
+                width: 40vw;
+            }
+            .second-image{
+                background-image: url('/assests/images/person2.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 150px;
+                width: 40vw;
+            }
+        }
+        .third-image{
+            background-image: url('/assests/images/person3.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 150px;
+                width: 60vw;
+        }
+    }
+}
+
+.fifth-section{
+    .carlos{
+        .image{
+            background-image: url('/assests/images/person4.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100px;
+                width: 100px;
+        }
+    }
+}
+
+footer{
+    ul{
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .first-section {
+        .image {
+            background-image: url('/assests/images/heroImage.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+        }
+        .bottom-text{
+            width: 350px;
+            margin: 0;
+        }
+    }
+    .thrid-section{
+        .first-designs{
+            height: 550px;
+            .first-design{
+                width: 45%;
+                padding-top: 200px;
+            }
+            .second-design{
+                width: 45%;
+            }
+        }
+        .second-designs{
+            height: 550px;
+            .third-design{
+                width: 45%;
+                padding-top: 200px;
+            }
+            .forth-design{
+                width: 45%;
+            }
+        }
+    }
+    footer{
+        .contact{
+            width: 350px;
+        }
+    }
+  }
